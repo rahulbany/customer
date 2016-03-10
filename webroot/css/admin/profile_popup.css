@@ -1,0 +1,53 @@
+	.fileupload .thumbnail {
+    display: inline-block;
+    margin-bottom: 5px;
+    overflow: hidden;
+    text-align: center;
+    vertical-align: middle;
+}
+ .thumbnail {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.055);
+    display: block;
+    line-height: 20px;
+    padding: 4px;
+    transition: all 0.2s ease-in-out 0s;
+}
+    .black_overlay{
+        display: none;
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        width: 100%;
+        height: 100%;
+        background-color: black;
+        z-index:1001;
+        -moz-opacity: 0.8;
+        opacity:.80;
+        filter: alpha(opacity=80);
+    }
+    .white_content {
+        display: none;
+        position: absolute;
+        top: 25%;
+        left: 25%;
+        width: 50%;
+        height: 28%;
+        padding: 16px;
+        border: 16px solid orange;
+        background-color: white;
+        z-index:1002;
+        overflow: auto;
+    }
+	.white_content {   border: 5px solid #ccc;  left: 35%;    top: 25%;    width: 30%; overflow: visible; }
+.fileupload, .btn.btn-file {text-align:center;}
+.btn.btn-file input[type="file"]{float: left;   text-align: center;  width: 100%;}
+a.fileupload-exists {background:#1a478d; color:#fff; margin-top:15px;}
+a.exit-popup {position:absolute; top:-15px; right:-15px; height:30px; width:30px; border:2px solid #333; color:#fff; font-weight:bold; font-size:18px; line-height:30px; background:#f00; text-align:center; border-radius:50%;}
+.update input[type="submit"].submitBtn {display:inline-block; width:100%; max-width:40%; margin:5px 0; padding:5px; border-radius:0; font-size:16px;  border:0; border-bottom:2px solid #666; background:#ccc;  color:#333; text-transform:uppercase;}
+.profile-pic {  text-align: center; overfloaw:hidden;}
+.img-block {display:inline-block; float:none; margin:5px;  overfloaw:hidden;}
+.img-block  p {left:0px; position: absolute; top: 0; width: 100%; text-align:Center; transition:all 550ms ease; margin:0; height:100%;}
+.img-block  p a {display:inline-block; margin-top:20px; height:50px; width:50px; background:url(../../img/profileImage/edit-pic.png) no-repeat center center #fff; color:#fff; border-radius:50%; background-size:contain; opacity:0;  transition:all 550ms ease;}
+.img-block  p:hover a {margin-top:70px; opacity:1;} 

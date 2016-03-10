@@ -1,0 +1,186 @@
+* {border:0; padding:0; margin:0; box-sizing:border-box; outline:none; text-decoration:none; list-style:none;}
+img{max-width:100%;}
+body.login-page{ background: #ce3428; font-family: 'helveticaneuecyrlight';}
+
+@font-face {
+    font-family: 'helveticaneuecyrlight';
+    src: url('../fonts/Login/fonts/helveticaneuecyr-light-webfont.eot');
+    src: url('../fonts/Login/fonts/helveticaneuecyr-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Login/fonts/helveticaneuecyr-light-webfont.woff2') format('woff2'),
+         url('../fonts/Login/fonts/helveticaneuecyr-light-webfont.woff') format('woff'),
+         url('../fonts/Login/fonts/helveticaneuecyr-light-webfont.ttf') format('truetype'),
+         url('../fonts/Login/fonts/helveticaneuecyr-light-webfont.svg#helveticaneuecyrlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'helveticaneuecyrmedium';
+    src: url('../fonts/Login/fonts/helveticaneuecyr-medium-webfont.eot');
+    src: url('../fonts/Login/fonts/helveticaneuecyr-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Login/fonts/helveticaneuecyr-medium-webfont.woff2') format('woff2'),
+         url('../fonts/Login/fonts/helveticaneuecyr-medium-webfont.woff') format('woff'),
+         url('../fonts/Login/fonts/helveticaneuecyr-medium-webfont.ttf') format('truetype'),
+         url('../fonts/Login/fonts/helveticaneuecyr-medium-webfont.svg#helveticaneuecyrmedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'helveticaneuecyrthin';
+    src: url('../fonts/Login/fonts/helveticaneuecyr-thin-webfont.eot');
+    src: url('../fonts/Login/fonts/helveticaneuecyr-thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Login/fonts/helveticaneuecyr-thin-webfont.woff2') format('woff2'),
+         url('../fonts/Login/fonts/helveticaneuecyr-thin-webfont.woff') format('woff'),
+         url('../fonts/Login/fonts/helveticaneuecyr-thin-webfont.ttf') format('truetype'),
+         url('../fonts/Login/fonts/helveticaneuecyr-thin-webfont.svg#helveticaneuecyrthin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.login-header {float:left; width:100%; text-align: left;}
+.login-header a, .login-footer a {max-width:420px; display: inline-block; padding:20px;}
+.login-wrapper { position: absolute; left:0; right:0; top:0; bottom:0; max-width:535px; margin:auto; border:2px solid #fff; padding: 20px 70px; 
+	border-radius:20px; height:430px;}
+.login-wrapper h1, .login-wrapper input, .login-wrapper a {float:left; font-family: 'helveticaneuecyrthin'; width:100%; padding: 10px 5px; margin:10px 0; color:#fff; font-size:23px;}
+.login-wrapper h1, .user-login-form h1 {font-size:53px; text-align:center;}
+.login-wrapper a {text-align:center; text-decoration: underline; margin-top:20px; width:100%;}
+.login-wrapper input[type="text"], .login-wrapper input[type="password"], .user-login-form input { border:1px solid #fff; padding-left:40px; height:50px; background:rgba(255,255,255, 0.1);}
+.login-wrapper input[type="submit"] {color:#262626; text-transform:uppercase; cursor: pointer;}
+.login-wrapper input[type="text"], .user-login-form input[type="text"] {background:url(../../img/Login/images/login-icon.png) no-repeat 10px center;}
+.login-wrapper input[type="password"], .user-login-form input[type="password"] {background:url(../../img/Login/images/pwd-icon.png) no-repeat 10px center;}
+.login-footer {position: absolute; bottom: 0px; right:0;}
+
+.user-login-page {float:left; width:100%; background:url(../../.../../img/Login/images/user-login-bg.png) no-repeat center top; background-size:100% 100%;}
+.login-container { margin:0 auto; max-width:1170px; width:100%; font-family: 'helveticaneuecyrthin';}
+.user-login-form {float:left; max-width:45%; padding:20px; text-align: center;}
+.user-login-form h1, .user-login-form a,  .user-login-form input{ float:left; width:100%; margin:10px 0; color:#fff; text-align: center; font-family: 'helveticaneuecyrthin';  display: inline-block;}
+.user-login-form button {background:none; padding:0;}
+ .user-login-form h1 {position: relative; padding-bottom: 20px; margin-bottom: 20px;}
+ .user-login-form h1:after {position: absolute; content:""; left:20%; width:60%; bottom: 0px; border-bottom:1px solid #fff;}
+ .user-login-form h3 {color:#fff; font-size:20px; text-transform: capitalize; padding-bottom: 10px;  }
+ .user-login-form input {text-align: left; font-size: 23px; max-width: 354px; float: none;}
+ .user-login-form .forgot-pwd {float:left; width:85%; text-align: right;}
+ .user-login-form .forgot-pwd a {width: auto; float: right; font-size: 18px;}
+ .user-login-form legend {display:inline-block; width:80%;color:#fff; position: relative; margin-bottom: 20px;}
+ .user-login-form legend:after,  .user-login-form legend:before {position: absolute; top:50%; height:1px; background:#fff; content:""; width:30%;}
+ .user-login-form legend:before {left:5%;}
+ .user-login-form legend:after {right:5%;}
+
+.user-partner-page {float:left; width:100%;   background:url(../../img/Login/images/partner-bg.png) no-repeat bottom right  #293d48; background-size:100% auto;}
+.user-partner-page .short-linksfooter a {display: inline-block; float: none; max-width:260px; width:100%; padding:10px;  text-align: center;  margin: 10px;
+ vertical-align: middle;}
+.short-linksfooter {float:left; width:100%; text-align: center;}
+.user-partner-page .short-linksfooter a img {max-width:100%;}
+.user-partner-page .short-linksfooter p span {  font-size:23px; padding-bottom: 5px; border-bottom:1px solid #fff; display: inline-block;}
+.user-partner-page .short-linksfooter p {color:#fff; font-size:18px;  display: inline-block; margin: 10px 0;}
+.need-partner {float:left; width:100%; margin-top:290px;}
+.need-partner img {max-width:354px;}
+.need-partner p {color:#fff; font-size:30px;}
+
+
+
+
+
+
+
+
+
+/*  ========================== footer style css  ========================== */
+
+footer {background-color:#1a1b1f; float:left; width:100%; padding:10px 20px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+footer .footer-section { margin-bottom: 0; margin-left: auto; margin-right: auto; padding-top: 44px; width: 1170px; }
+footer .footer-section .col-md-12 { display: inline-table; width: 100%; }
+footer .footer-section .col-md-4 { float: left; width: 32%; }
+footer .footer-section .col-md-4 .footer-logo img{ float:left; } 
+footer .footer-section .col-md-4 h4 { color: #fff; font-size: 22px; font-weight: 300; padding-left: 43px; padding-top: 7px; }
+footer .footer-section .col-md-4 .google-images { margin-top: 17px; }
+footer .footer-section .col-md-4 .google-images .play {	margin-left:15px; }
+footer .footer-section .col-md-4 .col-md-12 .col-md-6 { float: left; margin: 0 20px 0 0; width: 43%; }
+footer .footer-section .col-md-4 .col-md-12 .col-md-6 h4 { font-size: 16px; padding-left: 0; font-weight:300; font-family:"helveticaneuecyrroman";}
+footer .footer-section .col-md-4 .col-md-12 .col-md-6 li  { border-bottom:1px solid #b0b0b0; line-height: 41px; }
+footer .footer-section .col-md-4 .col-md-12 .col-md-6 li:last-child { border-bottom:none; }
+footer .footer-section .col-md-4 .col-md-12 .col-md-6 li a { color:#b0b0b0; font-size:16px; font-weight:300; font-family: 'helveticaneuecyrlight'; }
+.col-md-4.contact:last-child { float: right; }
+footer .col-md-4 .social { background:#36373c none repeat scroll 0 0;border:1px solid #959494;border-radius:8px;color:#a9a9a9;padding:10px;width:91%;}
+.col-md-4.contact > p { color: #b0b0b0; }
+footer .col-md-4 .social h3 {font-size:22px; font-family: 'helveticaneuecyrlight'; padding-bottom: 10px; }
+.social a { padding-right: 24px; display: inline-block; color:#b0b0b0; }
+.social > a { }
+
+.social > a > i.fa-facebook {
+    color: #3072de;
+}
+.social > a > i.fa-twitter {
+    color: #5fa8db;
+}
+.social > a > i.fa-instagram {
+    color: #c2995d;
+}
+.social > a > i.fa-pinterest-p {
+    color: #da4835;
+}
+.social > a > i.fa-google-plus {
+    color: #c83533;
+}
+.google-images > a { display: inline; }
+.social i:last-child { padding-right: 10px; }
+.phone { margin-top: 17px; color:#b0b0b0; }
+.phone.number { margin-top:25px; }
+.phone.mail img { padding-top:5px; }
+.phone > h3 { font-size: 20px; font-weight: 100; padding-left: 38px; }
+.phone > img { float: left; }
+
+.copyright { color:#fff; text-align:center; margin-top:58px; }
+.copyright h3, a {color:#fff; display: inline-block;}
+.copyright h3, .copyright h4 { font-size:14px; font-weight:200; font-family: 'helveticaneuecyrlight'; width:100%;}
+.copyright h4  { margin-bottom:20px; }
+.copyright .divider { background-color: #fff; display: inline-table; height: 1px; margin-bottom: 10px; text-align: center; width: 17%; }
+.clear { clear:both; }
+
+@media only screen and (max-width:1280px){
+.login-header a, .login-footer a {max-width: 400px;}
+
+}
+
+@media only screen and (max-width:1170px){
+.login-wrapper {height: 400px; max-width: 470px;padding: 10px 30px;}
+}
+
+@media only screen and (max-width:767px){
+
+.login-header a, .login-footer a {max-width: 320px;}
+.need-partner img {  max-width: 100%;}
+}
+
+@media only screen and (max-width:568px){
+.login-wrapper { position:static; left:auto; right:auto; top:auto; bottom:auto; margin:10px 5%; width:90%; height:auto; display:inline-block;}
+.login-header {text-align:center;}
+.login-footer, .login-header a { float: none; display:inline-block; position: static; text-align: center;width: 100%; }
+.login-wrapper h1, .user-login-form h1, .user-login-form h1 {font-size: 30px;}
+.login-wrapper h1, .login-wrapper input, .login-wrapper a { padding:5px; font-size: 18px;}
+.login-wrapper input[type="text"], .login-wrapper input[type="password"], .user-login-form input { height: 40px; }
+.login-wrapper h1, .user-login-form h1 {font-size: 32px;}
+.user-login-form, .need-partner  {width: 100%; max-width: 100%;}
+.need-partner { margin-top: 0;}
+.user-login-page {background-size:cover;}
+}
+
+
+
+
+
+
+
+
+
+
+

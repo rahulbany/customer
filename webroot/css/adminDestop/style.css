@@ -1,0 +1,85 @@
+
+@font-face {
+	font-family: 'Helvetica Neue';
+	src: url('../fonts/HelveticaNeue-Light.eot');
+	src: url('../fonts/HelveticaNeue-Light.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/adminDestop/HelveticaNeue-Light.woff') format('woff'),
+		url('../fonts/adminDestop/HelveticaNeue-Light.ttf') format('truetype'),
+		url('../fonts/HelveticaNeue-Light.svg#HelveticaNeue-Light') format('svg');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Helvetica Neue';
+	src: url('../fonts/HelveticaNeue.eot');
+	src: url('../fonts/HelveticaNeue.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/HelveticaNeue.woff') format('woff'),
+		url('../fonts/HelveticaNeue.ttf') format('truetype'),
+		url('../fonts/HelveticaNeue.svg#HelveticaNeue') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+*{margin:0; padding:0; text-decoration:none; line-height:auto; border:0; box-sizing:border-box; outline:none; list-style: none;}
+img {max-width:100%;}
+body {font-family: 'Helvetica Neue'; font-weight: 300; background: #f3f3f4;}
+.admin-wrapper {float: left; width: 100%; padding-left:170px; height:100%;}
+.sidebar {position: fixed; left: 0; top:0; width:170px;  background: #252525; min-height: 100vh;  z-index:999;}
+.sidebar h1 {float: left; width:100%; text-align: center; margin-top:50PX; padding: 5px 0;}
+.sidebar h1 a{display: inline-block; max-width: 100%; }
+.sidebar ul, .sidebar li, .sidebar li a {float:left; width:100%; font-size: 18px; color:#fff; }
+.sidebar ul {padding:10px;} 
+.sidebar li {margin:5px 0; position:relative;}
+.sidebar li img {float:left; margin:15px 0px 0 0;}
+.sidebar li a {padding:10px; float:left; width:auto; font-size: 18px;}
+.sidebar a.logout {position: absolute; bottom: 0; left: 0; width: 100%; text-align: center; padding: 10px 0; color: #fff; border-top:1px solid #fff;}
+.container {margin:0 auto; max-width: 1255px; width:100%; padding: 0px 20px;}
+.block {float:left; width:100%; border:1px solid #d5d5d5; background: #fff; border-radius:10px; border-top:3px solid #1aa5ed; margin-top:20px;}
+.block.col-6 {width:48%; min-height:260px;}
+.col-header {float:left; width:100%; padding: 15px 10px; border-bottom: 1px solid #b3b3b3;}
+.col-header h1 {color:#1aa5ed; font-size: 30px; float: left; width: auto; margin: 0; line-height: 30px; font-weight: 300;}
+.col-header h1 img {float: left; margin-right: 10px; }
+.col-header h1 img.msg {margin-top: 6px; }
+.col-header span.messages {border-radius:50%; color:#fff; background: #1aa5ed; font-size:12px; display: inline-block; text-align: center; line-height:15px; margin:10px 0px 0px 10px;   height:15px; width:15px;}
+.edit-feild {float: right; width: auto;}
+.edit-feild a {display: inline-block; padding:3px 3px  3px 25px; background: url(../../img/adminDestop/edit-sm.png) no-repeat left center; font-size:18px; color:#b3b3b3; }
+.edit-feild a.booking {display: inline-block; padding:3px 3px  3px 25px; background: url(../../img/adminDestop/add.png) no-repeat left center; font-size:16px; color:#1aa5ed; }
+.block-content {float:left; width:100%; padding:0px; padding-left: 10px;}
+.block-content p {padding: 10px 0; color:#000; font-size:18px;}
+.block-content p span {color:#6b6b76;}
+.block.move-right {float: right;}
+.block-content .col-3, .block-content .col-table {float:left; width:33.333%; padding:15px 110px 5px 142px; position: relative; padding-left: 132px; min-height:130px;}
+.block-content .col-3 + .col-3 {border-left:1px solid #d5d5d5; }
+.block-content .col-3.messages {padding:10px;}
+.block-content .home-img {position: absolute; left:10px; top:10px; width:110px; border-radius:50%; overflow: hidden;}
+a.block-edit {background: url(../../img/adminDestop/edit-sm.png) no-repeat left center; font-size:18px; color:#b3b3b3; position: absolute; right: 5px; top:3px; width: auto; padding-left: 20px;}
+.property-size {position: absolute; right:0px; width:110px; top:10px; text-align: center; padding-top:20px;}
+.property-size p, .property-info p{color:#6b6b76; font-size:18px; padding: 0;}
+.property-size span{color:#6b6b76; font-size:18px; margin-top:10px; display: inline-block; padding: 5px; border:1px solid #6b6b76;}
+.property-info p {padding:3px 0;}
+.property-info p span {color:#000;}
+.property-info {margin-top: 10px;}
+.messages .property-info {margin-top:0;}
+.messages .property-info p {color:#000; font-size: 20px;}
+.messages .property-info p span {font-size:18px;}
+.messages .property-info a.review {font-size:18px; padding-left:30px; background: url(../../img/adminDestop/review.png) no-repeat left center; color: #1aa5ed; font-size:16px;}
+.block-content {display: table;}
+.block-content .col-table {width:auto; float: none; display: table-cell; padding: 0; margin:0;}.sidebar li ul {z-index: 99; border-radius:0px 5px 5px 0; position: absolute; visibility:hidden; opacity: 0; right:-308px; width:200px; top:0px; padding:5px; background: #222;transition:all 450ms ease;}
+
+.sidebar li ul li a{padding: 5px;}
+
+.sidebar li:hover ul {opacity: 1; visibility: visible;right:-200px; transition:all 450ms ease;}
+
+@media only screen and (max-width:1370px){
+
+.property-info p, .property-size p, .property-info p, .edit-feild a, .block-content p, a.block-edit, 
+.messages .property-info p span {font-size:15px;}
+.col-header h1 {font-size: 25px;}
+
+
+}
+
+
+

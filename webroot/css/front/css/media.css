@@ -1,0 +1,429 @@
+@media (min-width:1401px) {
+.right-content{height: 945px;}
+.banner .mobile-right { background-image: url("../images/banner-mobile.png"); background-repeat:no-repeat; float:left; height:955px; padding-left:40px; position:absolute; right:0; top:-55px; width:520px; }
+.spinner {
+  bottom: 172px;
+}
+.banner{width:1170px;margin:0 auto;padding:0;}
+.alone-home h5 {
+    font-size: 82px;
+}
+.alone-home {
+  width: 52%;
+}
+.four-boxes {
+  width: 48%;
+}
+.container {
+  width: 1510px;
+}
+.box2 .box2-heading h1 {
+  font-family: helveticaneuecyrroman;
+   font-size: 38px;
+  font-weight: bold;
+  line-height: 31px;
+}
+.box2-heading > h1  {font-family: helveticaneuecyrroman;
+    font-size: 39px;
+    font-weight: bold;}
+
+.four-boxes .box1 .box1-heading h1 {
+  font-family: "helveticaneuecyrultralight";
+  font-size: 34px;
+  line-height: 43px;
+}
+footer .col-md-4 .social {
+  width: 73%;
+}
+.last-city {
+	width:100% !important;
+	text-align:center;
+}
+hr {
+  width: 60%;
+  margin-left: 19%;
+}
+.work-heading hr {
+  margin-left: 31%;
+  width: 37%;
+}
+}
+
+
+@media (max-width:1366px) {
+	.banner-content h1 {
+    color: #fff;
+    font-family: "helveticaneuecyrultralight";
+    font-size: 75px;
+    font-weight: 200;
+    line-height: auto;
+    padding-bottom: 0;
+}
+}
+
+@media (min-width:1280px) {
+.right-content.scrolled { background:url("../images/home-bg.jpg") no-repeat scroll center center / cover; opacity:0.2;  transition: all 0.8s ease-in-out 0.2s;}
+.lawn-services.scrolled1 { background: rgba(0, 0, 0, 0) url("../images/lawn-services.png") repeat scroll left -150px center / cover; opacity:0.5;  transition: all 0.8s ease-in-out 0.2s;}
+}
+
+
+@media (max-width:1400px) {
+.banner-content h1 {
+  font-family: "helveticaneuecyrultralight";
+  font-size: 76px;
+  padding-bottom: 21px;
+}
+.last-city {
+	width:100% !important;
+	text-align:center;
+}
+
+
+.banner-content h4 {
+  font-size: 39px;
+}
+.banner-content .button {
+  font-size: 42px;
+}
+.banner-content h2 {
+  font-size: 67px;
+}
+.banner-content .button { margin-top: 33px; }
+.four-boxes .box1 {	/* padding-top: 15px; */ float: left; width:50%; }
+.four-boxes .box1 .box1-heading h1 { line-height: 31px;	font-size: 28px; font-family: "helveticaneuecyrultralight"; }
+.four-boxes .box1 p { font-size: 19px; clear:both;}
+.four-boxes .box1 h2 { margin-top: 8px; }
+.alone { border-top: 1px solid #8e8f91; }
+.alone-home .alone-text { padding: 0 25px; }
+.alone-home h5 { font-family: "helveticaneuecyrultralight"; font-size: 42px; }
+.sidebar-nav { margin-top: 71px; }
+.box2 .box2-heading h1 {
+  font-family: helveticaneuecyrroman;
+  font-size: 34px;
+  font-weight: bold;
+  line-height: 31px;
+}
+.box2-heading > h1  {font-family: helveticaneuecyrroman;
+    font-size: 39px;
+    font-weight: bold;}
+.box2 hr { background-color: #fff; border: medium none; height: 4px; margin-top: 19px; width: 67px; }
+.four-boxes .box2 p { color: #fff; font-family: 'helveticaneuecyrroman'; font-size: 19px; line-height: 34px; }
+.four-boxes .box2 .works-underline { color: #fff; font-family: 'helveticaneuecyrroman'; font-size: 24px; font-weight: bold; text-decoration: underline; }
+}
+
+
+@media (max-width:1280px) {
+.container { margin: 0 auto; width:100%; }
+footer .footer-section{ margin: 0 auto; width:100%; }
+.banner{padding: 0 30px;}
+.banner-content h1 { font-size: 40px; }
+.banner-content { float: left; width: 50%; }
+.right-content .logo { width: 356px; }
+.right-content .header .nav-right ul li a { font-size: 21px; padding: 7px 9px; }
+.banner-content { top: 122px; }
+.alone { border-top: 1px solid #8e8f91; margin-top: 0; }
+.lawn-services .lawn-section .lawn-inner #second::after { height: 25px; right: -14px; width: 25px; }
+
+.banner .mobile-right { background-size: 96% auto; }
+.buttons a { float: left; margin: 0; padding: 0 10px; width: 220px; }
+.container > a img { margin:0; width:100%; }
+
+.header .nav-right ul li a { font-size: 23px; padding: 12px 13px 11px 13px; }
+.page-content {
+  padding: 0 20px;
+}
+}
+
+
+@media (max-width:1170px) {
+.lawn-services .lawn-section { width: 100%; }
+.lawn-services .lawn-section .lawn-inner #first { width: 72%; right: 41px; }
+.lawn-services .lawn-section .lawn-inner #second { width: 72%; right: 41px; }
+.lawn-services .lawn-section .lawn-inner section p { font-size: 20px; line-height: 28px; }
+.lawn-services .lawn-section .lawn-inner #first,
+.lawn-services .lawn-section .lawn-inner #second,
+.lawn-services .lawn-section .lawn-inner #third,
+.lawn-services .lawn-section .lawn-inner #fourth { min-height:180px !important; }
+.featured-section { width:100%; }
+.banner-content h1 {
+    font-size: 55px;
+}
+
+.banner-content h4 {
+    font-size: 28px;
+}
+.banner-content .button {
+  padding: 20px;
+}
+.banner-content h2 {
+    font-size: 36px;
+}
+}
+
+@media (max-width:1136px) {
+.featured-section { width: 100%; }
+.featured-section .col-md-12 .col-md-4 { width: 50%; }
+.logo { width: 350px; background-size:100%; }
+.header .nav-right ul li a { font-size: 20px; padding: 13px 12px; }
+}
+
+@media (max-width:1024px) {
+	.banner-content .button {
+  font-size: 29px;
+}
+}
+
+@media (max-width:990px) {
+.google-images img {width: 40%;}
+footer .col-md-4 .social {width: auto;}
+.buttons { float: left; padding: 40px 0; text-align: center; width: 100%; }
+.social a { padding-right: 5px; }
+
+.logo { width: 350px; float:none; margin:0 auto;}
+.nav-right { float:left; width:100%; text-align:center; }
+.header .nav-right ul li a { font-size: 24px; padding: 10px 20px; }
+.lawn-services .lawn-section h6 { font-size: 52px; }
+.featured-section h1 { font-size: 52px; }
+}
+
+@media (max-width:960px) {
+.banner .mobile-right { background-image: url("../images/banner-mobile-small.png");
+  background-repeat: no-repeat; float: left; height: 551px; padding-left: 40px; position: absolute; right: 0; top: -55px; width: 300px; }
+.alone-section { float: left; height: auto; }
+.alone-home { width:100%; }
+.four-boxes { width:100%; }
+.banner-content h1 { font-size: 34px; }
+.banner-content h4 { font-size: 28px; }
+.banner-content .button { width: 77%; text-align:Center; font-size: 19px; }
+.featured-section { width: 100%; }
+.buttons a { margin: 0; margin: 0 9%; width: 30%; }
+.spinner {
+  bottom: 107px;
+  display: table;
+  left: 0;
+  margin: auto;
+  padding-top: 0;
+  position: absolute;
+  right: 0;
+  z-index: 200;
+}
+
+}
+
+@media (max-width:832px) {
+footer .col-md-4 .social h3 { font-size: 19px; }
+.social a { padding-right: 34px; }
+footer .footer-section .col-md-4 h4 { font-size: 17px; }
+footer .footer-section .col-md-4 { float: left; width: 50%; }
+footer .col-md-4.contact { width:100%; padding-left:0; margin-bottom: 31px; }
+footer .col-md-4 .social { width: 43%; }
+.featured-section .col-md-12 .col-md-4 h2, .featured-section .col-md-12 .col-md-12 h2 { font-size: 25px; }
+.featured-section .col-md-12 .col-md-4 { min-height: 280px; }
+.banner-content h2 { font-size: 32px !important; }
+}
+
+@media (max-width:767px) {
+.header { padding-bottom: 0; padding-top: 0; }
+.header .nav-right ul li { float: left; text-align: center; width: 100%; }
+.header .nav-right ul li a { box-sizing: border-box; float: left; width: 100%; }
+/*.nav-right li:nth-child(5), .nav-right li:last-child { width: auto !important; text-align:center;}*/
+.nav-right li:nth-child(5) { text-align: right !important; width: 50% !important; }
+.nav-right li:last-child { text-align: left !important; width: 50% !important; }
+.nav-right { background:rgba(14,130,165,0.9); position:relative; z-index:9; }
+
+.banner-content .button { width: 90%; font-size: 20px; }
+.banner-content h2 { width: auto; font-size:20px; }
+.banner-content h2 img {display:none; }
+.banner-content { float: left; text-align: center; width: 100%; }
+.banner .mobile-right {	display:none; }
+.banner-content .button { float: none; display: inline-block; font-size: 16px !important; }
+.alone-home .alone-text p { text-align: center; }
+.lawn-services .lawn-section h6 { font-family: "helveticaneuecyrultralight"; font-size: 38px; font-weight: 300; }
+.featured-section h1 { font-family: "helveticaneuecyrultralight"; font-size: 38px; font-weight: 300; }
+footer .footer-section .col-md-4 { float: left; width: 100%; text-align: center; }
+.google-images img { width: auto; }
+.discover .col-md-6 ul li{text-align:left;}
+.discover .col-md-6 h4{text-align:left;}
+footer .footer-section .col-md-12 { display: inline-block; text-align: center; width: 100%; }
+.col-md-4.contact:last-child { display: inline-block; float: none; margin: 0 auto; width: auto; }
+footer .col-md-4 .social { width: auto; }
+.phone > h3 { text-align: left; }
+.buttons a { display: inline-block; float: none; margin: 0; padding: 0 4%; width: 40%; }
+
+.alone-home { height:auto !important; padding-bottom:20px; }
+.lawn-services .lawn-section .lawn-inner #first, .lawn-services .lawn-section .lawn-inner #second { float:left; left:5%; right:0 !important; width:80% !important;}
+.featured-section .col-md-12 .col-md-4 h2, .featured-section .col-md-12 .col-md-12 h2 { font-size: 20px; }
+.lawn-services .lawn-section .lawn-inner section h3 { font-size: 22px; line-height: normal; width: 100%; line-height:32px; }
+.lawn-services .lawn-section .lawn-inner section p { font-size: 15px !important; font-weight: 400; line-height: normal; }
+.featured-section .col-md-12 .col-md-4 { min-height: auto !important; }
+}
+
+@media (min-width:768px) {
+.nav-right { display:block !important; }
+}
+
+@media (max-width:767px) { 
+/*.logo {	background:rgba(0, 0, 0, 0) url("../images/logo-768.png") no-repeat scroll 0 0;	margin-left: 10px; margin-top: 11px; width: 200px; 	}*/
+.logo { background: rgba(0, 0, 0, 0) url("../images/logo-768.png") no-repeat scroll 0 0 / 100% auto; float: left; margin: 0 10px; width: 200px; background-position:center; }
+.bacon { background:rgba(0, 0, 0, 0) url("../images/bacon.png") repeat scroll 0 0; display:block; float:right; height:27px; margin-right:23px;
+margin-top:10px; width:38px; }
+.nav-right { display:none; }
+.mobile-right > img { display: none; }
+.buttons { top: 283px; }
+.banner-content { top: 184px; }
+.banner-content h1 { font-size: 27px; }
+.banner-content h4 { font-size: 24px; }
+.banner-content .button { font-size: 24px; }
+.banner-content .button { width: 56%; }
+.banner-content h2 { font-size: 32px; }
+.buttons > a > img { width: 36%; }
+.banner {
+  top: 155px;
+}
+.right-content {
+  height: 486px;
+}
+.about-us .about {
+  margin-top: 16px !important;
+  position: relative;
+}
+}
+
+@media (max-width:640px) {
+.header .nav-right ul li a { color: #fff; font-size: 20px; padding: 7px 19px; }
+.buttons .play { margin-left: 0; }
+.four-boxes .box1 { background: rgba(0, 0, 0, 0) url("../images/box_1.png") repeat scroll center center;
+  -webkit-box-sizing: padding-box; -moz-box-sizing: padding-box; box-sizing: padding-box; float: left; height: auto !important; padding: 45px 20px !important; text-align: center; width: 100% !important; }
+.lawn-services .lawn-section .lawn-inner #first::after, .lawn-services .lawn-section .lawn-inner #second::after { display:none; }
+.lawn-services .lawn-section .lawn-inner #first, .lawn-services .lawn-section .lawn-inner #second { right: 65px; width: 72%; }
+.four-boxes .box1 { width: 100%; }
+.alone-home h5 { font-size: 31px; }
+.alone-home .alone-text p { text-align: center; font-size: 17px; }
+.four-boxes .box1 { background: rgba(0, 0, 0, 0) url("../images/box_1.png") repeat scroll center center;
+  float: left; padding: 35px 17px; text-align: center; width: 100%; height:auto; }
+.four-boxes .box1 { background: rgba(0, 0, 0, 0) url("../images/box_1.png") repeat scroll center center;
+  -webkit-box-sizing: padding-box; -moz-box-sizing: padding-box; box-sizing: padding-box; float: left; height: 538px; padding: 115px 20px; text-align: center; width: 50%; }
+.box2 .box2-heading h1 { font-size: 26px; }
+.four-boxes .box1 p { font-size: 17px; }
+.four-boxes .box2 p { font-size: 17px; }
+.four-boxes .box2 .box2-heading, .four-boxes .box1 .box2-heading { font-size: 26px; line-height: 31px; }
+.lawn-services .lawn-section h6 { font-size: 32px; font-weight: 300; }
+.lawn-services .lawn-section .lawn-inner section p { font-size: 20px; font-weight: 400; }
+.lawn-services .lawn-section .lawn-inner section h3 {
+  width: 78%;
+}
+footer .footer-section .col-md-4 { width: 100%; }
+.google-images img { width: auto; }
+.social a { padding-right: 11px; }
+.col-md-4.discover { margin-top: 20px; }
+
+footer .footer-section .col-md-4 .col-md-12 .col-md-6 { width: 100%; }
+.footer-logo { display: inline-block; }
+
+.alone-home .alone-text p {font-size: 14px; line-height:normal; }
+.content-section {
+  margin-top: 0;
+}
+.content-layout h1 {
+  line-height: 57px;
+}
+.page-header span {
+  font-size: 66px;
+}
+}
+
+@media (max-width:494px) {
+.featured-section .col-md-4 img { width: 54%; }
+.featured-section h1 { font-size: 55px; }
+}
+
+@media (max-width:410px) {
+.banner-content h1 {
+  line-height: 29px;
+   padding-bottom: 8px !important;
+}
+	
+}
+@media (max-width:480px) {
+.lawn-services .lawn-section .lawn-inner #first, .lawn-services .lawn-section .lawn-inner #second { right: 40px; width: 72%; }
+.featured-section .col-md-12 .col-md-4 { width: 100%; }
+.alone-home { height: 600px; }
+.alone-home .alone-text { background-color: rgba(255, 255, 255, 0.5); padding: 0 25px; padding-bottom: 155px; }
+.featured-section h1 { font-size: 41px; }
+.featured-section .col-md-12 .col-md-4 h2, .featured-section .col-md-12 .col-md-12 h2 { font-size: 23px; }
+.featured-section .col-md-12 .col-md-4 { min-height: 259px; }
+.banner-content h2 {
+  font-size: 20px !important;
+}
+.content-layout h1 {
+  font-size: 18px;
+  line-height: 35px;
+}
+.page-header span {
+  font-size: 37px;
+}
+
+}
+
+@media (max-width:381px) {
+footer .footer-section .col-md-4 .google-images .play { margin-left: 0; }
+.logo { float: none; margin: 54px auto 0 !important; width: 80%; }
+.bacon { position: absolute; right: 0; top: 0; }
+.content-layout ul li {
+   line-height: 30px!important;
+   padding: 0 0 0 16px!important;
+}
+.banner-inner {
+  padding: 16px 7px;
+}
+}
+
+
+@media (min-width:768px) and (max-width:1300px) {
+footer .footer-section .col-md-4 { float: left; width: 100%; }
+.footer-logo { float: left; width: 50%; }
+footer .footer-section .col-md-4 .google-images { float: left; margin-top: 0; }
+footer .footer-section .col-md-4 .col-md-12 .col-md-6 { float: left; margin: 0 20px 0 0; width: 43%; }
+footer .col-md-4 .social { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; float: left; margin-bottom: 10px; width:auto; }
+footer .col-md-4 .social h3 { float: left; margin-right: 150px; padding: 10px; }
+.social a { padding:7px 0 7px 34px; float:left; }
+.phone.number { float: left; margin-top: 0;clear:both; }
+.phone { float: left; margin: 0 15px; }
+.wrapper{overflow:hidden;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
